@@ -1,0 +1,155 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /tmp/subsampled_P7_tumor_R1.fq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.0
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 3). Second best hit was smallRNA (count: 1)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.0 with Python 3.8.20
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /tmp/subsampled_P7_tumor_R1.fq.gz
+Processing single-end reads on 1 core ...
+Finished in 188.59 s (16 µs/read; 3.87 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              12,150,370
+Reads with adapters:                 4,270,793 (35.1%)
+Reads written (passing filters):    12,150,370 (100.0%)
+
+Total basepairs processed: 1,214,234,558 bp
+Quality-trimmed:                 685,017 bp (0.1%)
+Total written (filtered):  1,207,045,874 bp (99.4%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 4270793 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 20.1%
+  C: 29.8%
+  G: 25.0%
+  T: 25.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2969803	3037592.5	0	2969803
+2	877053	759398.1	0	877053
+3	323087	189849.5	0	323087
+4	67058	47462.4	0	67058
+5	16017	11865.6	0	16017
+6	5909	2966.4	0	5909
+7	2288	741.6	0	2288
+8	817	185.4	0	817
+9	822	46.3	0	145 677
+10	689	11.6	1	22 667
+11	246	2.9	1	2 244
+12	107	0.7	1	0 107
+13	102	0.7	1	2 100
+14	73	0.7	1	2 71
+15	74	0.7	1	1 73
+16	89	0.7	1	0 89
+17	66	0.7	1	0 66
+18	91	0.7	1	1 90
+19	92	0.7	1	0 92
+20	75	0.7	1	1 74
+21	99	0.7	1	1 98
+22	78	0.7	1	1 77
+23	75	0.7	1	3 72
+24	71	0.7	1	1 70
+25	70	0.7	1	1 69
+26	80	0.7	1	1 79
+27	78	0.7	1	0 78
+28	86	0.7	1	1 85
+29	83	0.7	1	1 82
+30	70	0.7	1	2 68
+31	84	0.7	1	2 82
+32	67	0.7	1	0 67
+33	89	0.7	1	1 88
+34	99	0.7	1	0 99
+35	88	0.7	1	2 86
+36	79	0.7	1	1 78
+37	66	0.7	1	0 66
+38	90	0.7	1	1 89
+39	68	0.7	1	1 67
+40	75	0.7	1	1 74
+41	77	0.7	1	1 76
+42	91	0.7	1	1 90
+43	82	0.7	1	0 82
+44	93	0.7	1	1 92
+45	82	0.7	1	0 82
+46	77	0.7	1	0 77
+47	80	0.7	1	0 80
+48	75	0.7	1	3 72
+49	90	0.7	1	2 88
+50	84	0.7	1	1 83
+51	61	0.7	1	1 60
+52	71	0.7	1	0 71
+53	68	0.7	1	1 67
+54	78	0.7	1	1 77
+55	78	0.7	1	1 77
+56	76	0.7	1	1 75
+57	75	0.7	1	2 73
+58	84	0.7	1	0 84
+59	84	0.7	1	0 84
+60	83	0.7	1	1 82
+61	80	0.7	1	1 79
+62	65	0.7	1	0 65
+63	70	0.7	1	0 70
+64	62	0.7	1	1 61
+65	86	0.7	1	0 86
+66	56	0.7	1	0 56
+67	90	0.7	1	0 90
+68	63	0.7	1	0 63
+69	81	0.7	1	2 79
+70	83	0.7	1	2 81
+71	70	0.7	1	0 70
+72	88	0.7	1	0 88
+73	87	0.7	1	2 85
+74	68	0.7	1	1 67
+75	74	0.7	1	0 74
+76	76	0.7	1	0 76
+77	73	0.7	1	1 72
+78	55	0.7	1	3 52
+79	84	0.7	1	2 82
+80	82	0.7	1	1 81
+81	74	0.7	1	1 73
+82	85	0.7	1	1 84
+83	66	0.7	1	1 65
+84	85	0.7	1	1 84
+85	70	0.7	1	1 69
+86	91	0.7	1	0 91
+87	64	0.7	1	0 64
+88	80	0.7	1	2 78
+89	78	0.7	1	0 78
+90	80	0.7	1	0 80
+91	72	0.7	1	1 71
+92	87	0.7	1	0 87
+93	85	0.7	1	1 84
+94	73	0.7	1	1 72
+95	85	0.7	1	0 85
+96	77	0.7	1	0 77
+97	103	0.7	1	0 103
+98	73	0.7	1	0 73
+99	57	0.7	1	0 57
+100	73	0.7	1	0 73
+
+RUN STATISTICS FOR INPUT FILE: /tmp/subsampled_P7_tumor_R1.fq.gz
+=============================================
+12150370 sequences processed in total
+
