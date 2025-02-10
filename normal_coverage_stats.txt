@@ -1,0 +1,3 @@
+Average coverage: 2.47677
+Max coverage: 2140
+Min coverage: 
